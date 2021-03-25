@@ -1,0 +1,49 @@
+body {
+    background-color: #0F0F0F;
+    overflow-x:hidden
+}
+
+.left {
+
+
+    width: 10%;
+}
+
+.middle {
+
+    width: 70%;
+}
+
+.right {
+
+    width: 18%;
+}
+
+.greenNavbar {
+    height: 400px;
+    width: 80px;
+    background-color: #1a1919;
+    margin-top: 130%;
+    margin-left: 50%;
+    border-color: #303030;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+
+.selected {
+    color: #83c264;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.select {
+    color: #505050;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.select:hover {
+    cursor: pointer;
+}
