@@ -1,0 +1,42 @@
+body {
+    background-color: #0F0F0F;
+    overflow-x:hidden;
+    overflow-y: hidden; 
+}
+
+.first_box {
+    width: 39%;
+    height: 100%;
+}
+
+input {
+    background-color: #202020;
+    border: none; width: 400px;
+    height: 45px; border-radius: 5px;
+    color: white; padding-left: 10px;
+    margin-top: 2%;
+}
+
+.login {
+    border: none;
+    width: 400px;
+    height: 45px;
+    color: white;
+    margin-top: 2%;
+    background-color: #83c264;
+    border-radius: 5px;
+}
+
+.social-button {
+    border-style: solid;
+    width: 195px;
+    height: 45px;
+    border-color: #222222;
+    border-width: 1px;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    
+    
+}
+
