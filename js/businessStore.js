@@ -1,9 +1,9 @@
 
 function loadAuctionItems() {
-    firebase.firestore().collection("Auction").get().then(docs => {
+    firebase.firestore().collection("Auction").get().then(function (docs){
 
-        docs.forEach((key, value){
-            var data = value.data()
+        docs.forEach((value) => {
+            var data = value.data();
 
             var auctionItem = `
                 <div class="auction-item" style="border-style: solid; border-color: #141414; border-width: 2px; height: 300px; width: 220px; margin-top: 5%; margin-left: 5%;">
@@ -111,7 +111,7 @@ function loadAuctionItems() {
             `
 
 
-            $('#auction-item-list').append(auctionItem)
-        })
-    })
+            $('#auction-item-list').append(auctionItem);
+        });
+    });
 };
