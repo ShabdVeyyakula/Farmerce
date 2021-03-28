@@ -13,6 +13,7 @@ function signIn() {
     // Signed in
     var user = userCredential.user;
     console.log("Sign in Succesful")
+    window.location.href = "../business-pages/businessDashboard.html"
     // ...
   })
   .catch((error) => {
@@ -21,3 +22,4 @@ function signIn() {
     console.log("Sign in Failed")
   });
 }
+
