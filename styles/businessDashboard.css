@@ -1,6 +1,7 @@
 body {
     background-color: #0F0F0F;
-    overflow-x:hidden
+    overflow-x:hidden;
+    overflow-y: hidden;
 }
 
 .left {
@@ -46,4 +47,80 @@ body {
 
 .select:hover {
     cursor: pointer;
+}
+
+.right-box {
+    border-style: solid;
+    border-color: #282828;
+    height: 800px;
+    width: 490px;
+    border-radius: 15px;
+    margin-top: 14%;
+    margin-right: 10%;
+
+}
+
+.item {
+    color: white;
+    font-size: 25px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.amount {
+    color:#6e6d6d;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 8%;
+
+}
+
+.days {
+    color:#6e6d6d;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 6%;
+}
+
+.price {
+    color:#6e6d6d;
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 6%;
+}
+
+.icon {
+    color: white;
+    font-size: 45px;
+    margin-left: 13%;
+    margin-top: 0.3%;
+}
+
+.small-box {
+    height: 70px;
+    width: 240px;
+    background-color: #1C1C1C;
+    border-radius: 5px;
+    margin-top: 5%;
+    padding-top: 5px;
+}
+
+.view {
+    height: 50px;
+    width: 210px;
+    border: none;
+    border-radius: 5px;
+    background-color: #83C264;
+    color: white;
+    margin-top: 40px;
+}
+
+.create {
+    margin-top: 10px;
+    height: 50px;
+    width: 210px;
+    border: none;
+    border-radius: 5px;
+    background-color: #73A2FF;
+    color: white;
 }
